@@ -11,7 +11,7 @@ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 class SongController extends AbstractController
 {
-    #[Route('/api/song/{id<\d+>}', name: 'app_song_getsong',methods: ['GET'])]
+    #[Route('/api/song/{id<\d+>}', name: 'api_song_get_one',methods: ['GET'])]
     public function getSong(int $id, LoggerInterface $logger): Response
     {
         // TODO query the database

@@ -13,6 +13,7 @@
         "symfony/dotenv": "6.1.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "6.1.*",
+        "symfony/http-client": "6.1.*",
         "symfony/monolog-bundle": "^3.0",
         "symfony/runtime": "6.1.*",
         "symfony/twig-bundle": "6.1.*",
